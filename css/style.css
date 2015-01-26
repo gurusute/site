@@ -2359,7 +2359,7 @@ h1{
 @media (min-width: 1200px){
 
 	/* navigation */
-	li.btn{
+	.btn{
 		min-height: 45px;
 		margin: 0;
 		padding: 0;
@@ -2385,7 +2385,7 @@ h1{
 
 	/* navigation */
 	/* navigation */
-	li.btn{
+	.btn{
 		min-height: 50px;
 		margin: 0;
 		padding: 0;
@@ -2420,7 +2420,7 @@ h1{
 	}
 
 	/* navigation */
-	li.btn{
+	.btn{
 		min-height: 63px;
 		margin: 0;
 		padding: 0;
@@ -2441,7 +2441,7 @@ h1{
 		min-height: 50px;
 	}
 
-	li.btn{
+	.btn{
 		float: left;
 		min-height: 45px;
 		width: 25%;
