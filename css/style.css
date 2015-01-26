@@ -281,55 +281,55 @@ h1{
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
-}
-
-.span12 {
-  width: 940px;
-}
-
-.span11 {
-  width: 860px;
-}
-
-.span10 {
-  width: 780px;
-}
-
-.span9 {
-  width: 700px;
-}
-
-.span8 {
-  width: 620px;
-}
-
-.span7 {
-  width: 540px;
-}
-
-.span6 {
-  width: 460px;
-}
-
-.span5 {
-  width: 380px;
-}
-
-.span4 {
-  width: 300px;
-}
-
-.span3 {
-  width: 220px;
-}
-
-.span2 {
-  width: 140px;
+  width: 100%;
 }
 
 .span1 {
-  width: 60px;
+  width: 100/12 * 100 %;
+}
+
+.span2 {
+  width: 100/11 * 100 %;
+}
+
+.span3 {
+  width: 100/10 * 100 %;
+}
+
+.span4 {
+  width: 100/9 * 100 %;
+}
+
+.span5 {
+  width: 100/8 * 100 %;
+}
+
+.span6 {
+  width: 100/7 * 100 %;
+}
+
+.span7 {
+  width: 100/6 * 100 %;
+}
+
+.span8 {
+  width: 100/5 * 100 %;
+}
+
+.span9 {
+  width: 100/4 * 100 %;
+}
+
+.span10 {
+  width: 100/3 * 100 %;
+}
+
+.span11 {
+  width: 100/2 * 100 %;
+}
+
+.span12 {
+  width: 100/1 * 100 %;
 }
 
 .offset12 {
