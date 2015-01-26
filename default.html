@@ -1,0 +1,52 @@
+<{if $tpl_name.top=="t"}>
+
+<script src="https://rawgit.com/gurusute/site/master/js/jquery-1.11.1.min.js"></script>
+<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://rawgit.com/gurusute/site/master/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/gurusute/site/master/css/bootstrap-responsive.css">
+<!-- /bootstrap -->
+
+<!-- flexslider -->
+<script src="https://rawgit.com/gurusute/site/master/flexslider/flexslider.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/gurusute/site/master/flexslider/flexslider.css">
+<!-- /flexslider -->
+
+<script src="https://rawgit.com/gurusute/site/master/js/functions.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/gurusute/site/master/css/top.css">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<{/if}>
+
+<{if $tpl_name.top!="t"}>
+    <link rel="stylesheet" href="https://rawgit.com/gurusute/site/master/css/style.css">
+    <script src="http://img.shop-pro.jp/tmpl_js/73/jquery.tile.js"></script>
+    <script src="http://img.shop-pro.jp/tmpl_js/73/jquery.skOuterClick.js"></script>
+<{/if}>
+
+<div class="container">
+  <div class="row">
+    <div class="span4">
+      <a href="/"><h1>GURMET STATION<br><span class="sub-title">グルメステーション</span></h1></a>
+    </div>
+    <div class="span7">
+      <ul class="inline-list">
+        <li class="span1 btn">ログイン</li>
+        <li class="span1 btn">店舗情報</li>
+        <li class="span1 btn">配送料</li>
+        <li class="span1 btn">返品</li>
+        <li class="span1 btn search">検索</li>
+      </ul>
+    </div>
+  </div>
+      <{include file = $file_name}>
+      <script src="https://rawgit.com/gurusute/gurusute/master/removeProductId.js"></script>
+</div>
+
