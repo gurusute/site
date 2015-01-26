@@ -1243,167 +1243,6 @@ h1{
 
 
 
-/*デスクトップ(大)*/
-@media (min-width: 1200px){
-
-	/* navigation */
-	.btn{
-		min-height: 45px;
-		margin: 0;
-		padding: 0;
-		width: 14.5%;
-	}
-
-	.search{
-		width: 40%;
-	}
-
-	.category-panel{
-		width: 316px;
-		height: 316px;
-		margin: 30px 0 0 30px;
-	}
-}
-/*デスクトップ(小)*/
-@media (min-width: 980px) and (max-width: 1199px){
-
-	h1{
-		font-size: 170%;
-	}
-
-	/* navigation */
-	/* navigation */
-	.btn{
-		min-height: 50px;
-		margin: 0;
-		padding: 0;
-		width: 14.5%;
-	}
-
-	.search{
-		width: 40%;
-	}
-
-	.category-panel{
-		width: 25%;
-		height: 25%;
-		margin: 6% 0 0 6%;
-	}
-
-
-}
-
-/*タブレット*/
-@media (min-width: 768px) and (max-width: 979px){
-
-	.category-panel{
-		width: 40%;
-		height: 40%;
-		margin: 6% 0 0 6%;
-	}
-
-	h1{
-		font-size: 170%;
-		line-height: .9;
-	}
-
-	/* navigation */
-	.btn{
-		min-height: 63px;
-		margin: 0;
-		padding: 0;
-		width: 14.5%;
-	}
-
-	.search{
-		width: 25%;
-	}
-}
-
-/*スマホ(大)*/
-@media (max-width: 767px) {
-
-	/* navigation */
-	.nav{
-		overflow: hidden;
-		min-height: 50px;
-	}
-
-	.btn{
-		float: left;
-		min-height: 45px;
-		width: 25%;
-	}
-
-	.search{
-		width: 100%;
-	}
-
-	.category-panel{
-		/*width: 40%;*/
-		/*height: 40%;*/
-		margin: 4.5% 0 0 0;
-		width: 100%;
-	}
-
-	.sub-content-title{
-		font-size: 160%;
-		line-height: .8em;
-		letter-spacing: .2em;
-		text-align: center;
-	}
-
-	.sub-content-panel{
-		width: 100%;
-		margin: 6% 0 0 0;
-	}
-
-}
-
-/*スマホ(小)*/
-@media (max-width: 480px) {
-
-	h1{
-		line-height: .8em;
-		font-size: 150%;
-		letter-spacing: .2em;
-		text-align: center;
-	}
-
-	.sub-title{
-		font-size: 50%;
-		letter-spacing: .2em;
-		text-align: center;
-	}
-
-	.content-title{
-		font-size: 110%;
-		letter-spacing: .2em;
-		text-align: center;
-	}
-
-	.sub-content-title{
-		font-size: 110%;
-		line-height: .8em;
-		letter-spacing: .2em;
-		text-align: center;
-	}
-
-	.sub-content-panel{
-		width: 100%;
-		margin: 6% 0 0 0;
-	}
-
-	.category-panel{
-		/*width: 40%;*/
-		/*height: 40%;*/
-		margin: 4.5% 0 0 0;
-		width: 100%;
-	}
-
-}
-
-
 /*!
  * Bootstrap Responsive v2.3.2
  *
@@ -2514,4 +2353,167 @@ h1{
   }
 }
 
+
+
+
+
+/*デスクトップ(大)*/
+@media (min-width: 1200px){
+
+	/* navigation */
+	.btn{
+		min-height: 45px;
+		margin: 0;
+		padding: 0;
+		width: 14.5%;
+	}
+
+	.search{
+		width: 40%;
+	}
+
+	.category-panel{
+		width: 316px;
+		height: 316px;
+		margin: 30px 0 0 30px;
+	}
+}
+/*デスクトップ(小)*/
+@media (min-width: 980px) and (max-width: 1199px){
+
+	h1{
+		font-size: 170%;
+	}
+
+	/* navigation */
+	/* navigation */
+	.btn{
+		min-height: 50px;
+		margin: 0;
+		padding: 0;
+		width: 14.5%;
+	}
+
+	.search{
+		width: 40%;
+	}
+
+	.category-panel{
+		width: 25%;
+		height: 25%;
+		margin: 6% 0 0 6%;
+	}
+
+
+}
+
+/*タブレット*/
+@media (min-width: 768px) and (max-width: 979px){
+
+	.category-panel{
+		width: 40%;
+		height: 40%;
+		margin: 6% 0 0 6%;
+	}
+
+	h1{
+		font-size: 170%;
+		line-height: .9;
+	}
+
+	/* navigation */
+	.btn{
+		min-height: 63px;
+		margin: 0;
+		padding: 0;
+		width: 14.5%;
+	}
+
+	.search{
+		width: 25%;
+	}
+}
+
+/*スマホ(大)*/
+@media (max-width: 767px) {
+
+	/* navigation */
+	.nav{
+		overflow: hidden;
+		min-height: 50px;
+	}
+
+	.btn{
+		float: left;
+		min-height: 45px;
+		width: 25%;
+	}
+
+	.search{
+		width: 100%;
+	}
+
+	.category-panel{
+		/*width: 40%;*/
+		/*height: 40%;*/
+		margin: 4.5% 0 0 0;
+		width: 100%;
+	}
+
+	.sub-content-title{
+		font-size: 160%;
+		line-height: .8em;
+		letter-spacing: .2em;
+		text-align: center;
+	}
+
+	.sub-content-panel{
+		width: 100%;
+		margin: 6% 0 0 0;
+	}
+
+}
+
+/*スマホ(小)*/
+@media (max-width: 480px) {
+
+	h1{
+		line-height: .8em;
+		font-size: 150%;
+		letter-spacing: .2em;
+		text-align: center;
+	}
+
+	.sub-title{
+		font-size: 50%;
+		letter-spacing: .2em;
+		text-align: center;
+	}
+
+	.content-title{
+		font-size: 110%;
+		letter-spacing: .2em;
+		text-align: center;
+	}
+
+	.sub-content-title{
+		font-size: 110%;
+		line-height: .8em;
+		letter-spacing: .2em;
+		text-align: center;
+	}
+
+	.sub-content-panel{
+		width: 100%;
+		margin: 6% 0 0 0;
+	}
+
+	.category-panel{
+		/*width: 40%;*/
+		/*height: 40%;*/
+		margin: 4.5% 0 0 0;
+		width: 100%;
+	}
+
+}
 
