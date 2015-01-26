@@ -1,3 +1,7 @@
+a:hover {
+      text-decoration: none;
+}
+
 /* productname visibility */
 .productname {
     visibility: hidden;
