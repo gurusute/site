@@ -123,12 +123,6 @@ h1{
   clear: both;
 }
 
-[class*="span"] {
-  float: left;
-  min-height: 1px;
-  margin-left: 20px;
-}
-
 /*!
  * Bootstrap Responsive v2.3.2
  *
