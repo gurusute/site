@@ -273,6 +273,10 @@ h1{
   margin-left: 20px;
 }
 
+.row {
+	width: 100%;
+}
+
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
